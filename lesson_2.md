@@ -38,15 +38,35 @@
 
 ------
 
-### Правила приёма работы
+### Ответ
 
-1. Домашняя работа оформляется в своем Git-репозитории в файле README.md. Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
-2. Файл README.md должен содержать скриншоты вывода команд `kubectl get pods`, а также скриншот результата подключения.
-3. Репозиторий должен содержать файлы манифестов и ссылки на них в файле README.md.
+Выполняла опять на macos и ubuntu:
 
-------
+MacOS:
 
-### Критерии оценки
-Зачёт — выполнены все задания, ответы даны в развернутой форме, приложены соответствующие скриншоты и файлы проекта, в выполненных заданиях нет противоречий и нарушения логики.
+![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson2/SCR-20240201-tkaa.png)
 
-На доработку — задание выполнено частично или не выполнено, в логике выполнения заданий есть противоречия, существенные недостатки.
+![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson2/SCR-20240201-tjwt.png)
+
+![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson2/SCR-20240201-tkfq.png)
+
+![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson2/SCR-20240201-tkei.png)
+
+![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson2/SCR-20240202-kpga.png)
+
+![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson2/SCR-20240202-kpas.png)
+
+![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson2/SCR-20240202-kpco.png)
+
+Для curl создала свой сервис и под
+
+Ubuntu:
+
+![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson2/SCR-20240202-kdzk.png)
+
+![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson2/SCR-20240202-kdwg.png)
+
+![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson2/SCR-20240202-kdxy.png)
+
+Итоговые yml файлы одинаковые, кроме лишнего сервиса под curlpod под макось
+[сервисы](https://github.com/Jlljully/k8s/blob/main/files/lesson2/01_service.yaml)  [поды](https://github.com/Jlljully/k8s/blob/main/files/lesson2/01-pod-hello-world.yaml)
