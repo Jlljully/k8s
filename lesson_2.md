@@ -70,3 +70,12 @@ Ubuntu:
 
 Итоговые yml файлы одинаковые, кроме лишнего сервиса под curlpod под макось
 [сервисы](https://github.com/Jlljully/k8s/blob/main/files/lesson2/01_service.yaml)  [поды](https://github.com/Jlljully/k8s/blob/main/files/lesson2/01-pod-hello-world.yaml)
+
+
++ curl до сервиса
+
+  ![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson2/SCR-20240202-qncy.png)
+
+  ![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson2/SCR-20240202-qnbw.png)
+
+  ![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson2/SCR-20240202-qmzz.png)
