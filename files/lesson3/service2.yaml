@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ngnet
+  namespace: lesson3
+spec:
+  ports:
+    - name: ngport
+      port: 80
+      targetPort: 80
+  selector:
+    app: nginx
