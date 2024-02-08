@@ -41,10 +41,33 @@
 
 ------
 
-### Правила приема работы
+### Ответ
 
-1. Домашняя работа оформляется в своем Git-репозитории в файле README.md. Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
-2. Файл README.md должен содержать скриншоты вывода необходимых команд `kubectl` и скриншоты результатов.
-3. Репозиторий должен содержать файлы манифестов и ссылки на них в файле README.md.
+### Задание 1
 
-------
+![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson3/SCR-20240208-rjuv.png)
+
+![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson3/SCR-20240208-rmrb.png)
+
+![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson3/SCR-20240208-rvop.png)
+
+поняла ошибку, переделала в один deployment:
+
+![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson3/SCR-20240208-smpb.png)
+
+![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson3/SCR-20240208-sngy.png)
+
+![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson3/SCR-20240208-sokq.png)
+
+[deployment.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson3/deployment1.yaml)
+
+[service.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson3/service1.yaml)
+
+
+### Задание 2
+
+![Скрин](https://github.com/Jlljully/k8s/blob/main/files/lesson3/SCR-20240208-trax.png)
+
+[deployment.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson3/deployment2.yaml)
+
+[service.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson3/service2.yaml)
