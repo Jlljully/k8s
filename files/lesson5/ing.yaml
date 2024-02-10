@@ -1,0 +1,27 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: web-ing
+  namespace: lesson5
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  ingressClassName: "nginx"
+  rules:
+  - host: ingres.jlljully.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: ngnet
+            port:
+              name: ngport
+      - path: /api
+        pathType: Prefix
+        backend:
+          service:
+            name: mtnet
+            port:
+              name: mtport
