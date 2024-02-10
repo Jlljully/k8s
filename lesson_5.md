@@ -33,6 +33,17 @@
 
 ------
 
+### Ответ
+
+[deployment.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson5/dpl1.yaml)
+
+[service.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson5/svc1.yaml)
+
+![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson5/SCR-20240210-mwtu.png)
+
+
+------
+
 ### Задание 2. Создать Ingress и обеспечить доступ к приложениям снаружи кластера
 
 1. Включить Ingress-controller в MicroK8S.
@@ -42,3 +53,16 @@
 
 ------
 
+### Ответ
+
+Деплоймент тот же, [service.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson5/svc2.yaml), [ingress.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson5/ing.yaml)
+
+Так и не дождалась расхождения зоны, хотя напрямую с яндекс днс отдается. Поэтому записала в host на ноуте
+
+![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson5/SCR-20240210-toco.png)
+
+![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson5/SCR-20240210-txjx.png)
+
+![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson5/SCR-20240210-tunl.png)
+
+![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson5/SCR-20240210-tuoq.png)
