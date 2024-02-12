@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: dsvoltest
+  namespace: lesson6
+spec:
+  selector:
+    matchLabels:
+      app: mttool
+  template:
+    metadata:
+      labels:
+        app: mttool
+    spec:
+      containers:
+      - name: multitool
+        image: wbitt/network-multitool
+        volumeMounts:
+        - name: vol
+          mountPath: /logs/look
+      volumes:
+      - name: vol
+        hostPath:
+          path: /var/log/
