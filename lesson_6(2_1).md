@@ -36,11 +36,26 @@
 
 ------
 
+### Ответ
+
+Первый раз психанула и сделала цикл и на cat, но было многовато :) Переделала 
+
+[Первый вариант](https://github.com/Jlljully/k8s/blob/main/files/lesson6(2_1)/dlp1.yaml)
+
+![Первый вариант](https://github.com/Jlljully/k8s/blob/main/files/lesson6(2_1)/SCR-20240212-rhxp.png)
+
+[Второй вариант](https://github.com/Jlljully/k8s/blob/main/files/lesson6(2_1)/dlp2.yaml)
+
+![Второй вариант](https://github.com/Jlljully/k8s/blob/main/files/lesson6(2_1)/SCR-20240212-rntz.png)
+
+------
+
 ### Задание 2
 
 **Что нужно сделать**
 
-Создать DaemonSet приложения, которое может прочитать логи ноды.
+Создать DaemonSet приложе
+ния, которое может прочитать логи ноды.
 
 1. Создать DaemonSet приложения, состоящего из multitool.
 2. Обеспечить возможность чтения файла `/var/log/syslog` кластера MicroK8S.
@@ -49,10 +64,8 @@
 
 ------
 
-### Правила приёма работы
+### Ответ
 
-1. Домашняя работа оформляется в своём Git-репозитории в файле README.md. Выполненное задание пришлите ссылкой на .md-файл в вашем репозитории.
-2. Файл README.md должен содержать скриншоты вывода необходимых команд `kubectl`, а также скриншоты результатов.
-3. Репозиторий должен содержать тексты манифестов или ссылки на них в файле README.md.
+[DaemonSet](https://github.com/Jlljully/k8s/blob/main/files/lesson6(2_1)/ds.yaml)
 
-------
+![DaemonSet](https://github.com/Jlljully/k8s/blob/main/files/lesson6(2_1)/SCR-20240212-rwku.png)
