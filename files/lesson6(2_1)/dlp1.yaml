@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: voltest
+  namespace: lesson6
+  labels:
+    app: busybox
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: busybox
+  template:
+    metadata:
+      labels:
+        app: busybox
+    spec:
+      containers:
+      - name: multitool
+        image: wbitt/network-multitool
+        command: ['sh', '-c', "while true; do cat /input/file.txt; sleep 5; done"]
+        volumeMounts:
+        - name: vol
+          mountPath: /input
+      - name: busybox
+        image: busybox
+        command: ['sh', '-c', "while true; do echo 'test' >> /output/file.txt; sleep 5; done"]
+        volumeMounts:
+        - name: vol
+          mountPath: /output
+      volumes:
+      - name: vol
+        emptyDir: {}
