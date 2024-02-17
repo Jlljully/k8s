@@ -41,7 +41,8 @@
 
 ### Задание 1
 
-[deployment.yaml ](https://github.com/Jlljully/k8s/blob/main/files/lesson7(2_2)/dpl.yaml)
+[deployment.yaml ](https://github.com/Jlljully/k8s/blob/main/files/lesson7(2_2)/dpl.yaml)  
+
 [pv.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson7(2_2)/pv.yaml)
 
 ![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson7(2_2)/SCR-20240217-quhr.png)
