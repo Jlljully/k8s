@@ -39,7 +39,7 @@
 
 ------
 
-### Задание 1
+### Ответ
 
 [deployment.yaml ](https://github.com/Jlljully/k8s/blob/main/files/lesson7(2_2)/dpl.yaml)  
 
@@ -51,7 +51,11 @@
 
 ![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson7(2_2)/SCR-20240217-qvxi.png)
 
+PV остался в статусе released, потому что не к чему бондиться. Но сама PV остается независимым объектом
+
 ![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson7(2_2)/SCR-20240217-qwcs.png)
+
+После удаления PV файл остался, потому что нет политики delete (видно на скрине выше, что была политика retain). Но, как показала практика, на microk8s delete все равно не работает.
 
 ------
 
@@ -68,7 +72,7 @@
 
 ------
 
-### Задание 2
+### Ответ
 [
 deployment.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson7(2_2)/dpl2.yaml)  
 
