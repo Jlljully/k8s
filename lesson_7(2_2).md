@@ -69,11 +69,13 @@
 ------
 
 ### Задание 2
+[
+deployment.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson7(2_2)/dpl2.yaml)  
 
-![screen]()
+[storageclass.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson7(2_2)/sc.yaml)  
 
-![screen]()
 
-![screen]()
+![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson7(2_2)/SCR-20240217-rkpc.png)
 
-![screen]()
+![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson7(2_2)/SCR-20240217-rlpw.png)
+
