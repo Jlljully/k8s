@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: net-deployment
+  namespace: lesson8
+  labels:
+    app: net
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: net
+  template:
+    metadata:
+      labels:
+        app: net
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.19
+        volumeMounts:
+        - name: html-volume
+          mountPath: /usr/share/nginx/html
+        ports:
+        - containerPort: 80
+          name: ngport
+      - name: multitool
+        image: wbitt/network-multitool
+        envFrom:
+        - configMapRef:
+            name: cmap
+        ports:
+        - containerPort: 8080
+          name: mtport
+      volumes:
+      - name: html-volume
+        configMap:
+          name: htmlmap
