@@ -35,7 +35,9 @@
 ### Ответ
 
 [deployment.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/dpl1.yaml)
+
 [service.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/svc.yaml)
+
 [configmap.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/configmap.yaml)
 
 ![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/SCR-20240218-bcjc.png)
@@ -60,7 +62,9 @@
 ### Ответ
 
 [deployment.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/dpl2.yaml)
+
 [service.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/svc2.yaml)
+
 [configmap+secret.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/secret.yaml)
 
 ![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/SCR-20240219-rhpu.png)
