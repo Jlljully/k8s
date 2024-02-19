@@ -38,11 +38,11 @@
 [service.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/svc.yaml)
 [configmap.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/configmap.yaml)
 
-[screen](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/SCR-20240218-bcjc.png)
+![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/SCR-20240218-bcjc.png)
 
-[screen](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/SCR-20240218-mbcd.png)
+![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/SCR-20240218-mbcd.png)
 
-[screen](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/SCR-20240218-lzeb.png)
+![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/SCR-20240218-lzeb.png)
 
 
 ------
@@ -63,5 +63,5 @@
 [service.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/svc2.yaml)
 [configmap+secret.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/secret.yaml)
 
-[screen](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/SCR-20240219-rhpu.png)
+![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/SCR-20240219-rhpu.png)
 
