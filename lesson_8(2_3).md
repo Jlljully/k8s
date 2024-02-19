@@ -32,6 +32,21 @@
 
 ------
 
+### Ответ
+
+[deployment.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/dpl1.yaml)
+[service.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/svc.yaml)
+[configmap.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/configmap.yaml)
+
+[screen](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/SCR-20240218-bcjc.png)
+
+[screen](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/SCR-20240218-mbcd.png)
+
+[screen](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/SCR-20240218-lzeb.png)
+
+
+------
+
 ### Задание 2. Создать приложение с вашей веб-страницей, доступной по HTTPS 
 
 1. Создать Deployment приложения, состоящего из Nginx.
@@ -41,3 +56,12 @@
 4. Предоставить манифесты, а также скриншоты или вывод необходимых команд.
 
 ------
+
+### Ответ
+
+[deployment.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/dpl2.yaml)
+[service.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/svc2.yaml)
+[configmap+secret.yaml](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/secret.yaml)
+
+[screen](https://github.com/Jlljully/k8s/blob/main/files/lesson8(2_3)/SCR-20240219-rhpu.png)
+
