@@ -33,7 +33,9 @@
 ### Ответ
 
 [Манифесты](https://github.com/Jlljully/k8s/blob/main/files/lesson9(2_4)/manifests.yaml)
+
 [history](https://github.com/Jlljully/k8s/blob/main/files/lesson9(2_4)/history.txt) императивного
+
 Итоговый [конфиг](https://github.com/Jlljully/k8s/blob/main/files/lesson9(2_4)/config) в .kube
 
 ![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson9(2_4)/SCR-20240302-pavs.png)
