@@ -29,14 +29,17 @@
 3. Создайте роли и все необходимые настройки для пользователя.
 4. Предусмотрите права пользователя. Пользователь может просматривать логи подов и их конфигурацию (`kubectl logs pod <pod_id>`, `kubectl describe pod <pod_id>`).
 5. Предоставьте манифесты и скриншоты и/или вывод необходимых команд.
+#
+### Ответ
 
-------
+[Манифесты](https://github.com/Jlljully/k8s/blob/main/files/lesson9(2_4)/manifests.yaml)
+[history](https://github.com/Jlljully/k8s/blob/main/files/lesson9(2_4)/history.txt) императивного
+Итоговый [конфиг](https://github.com/Jlljully/k8s/blob/main/files/lesson9(2_4)/config) в .kube
 
-### Правила приёма работы
+![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson9(2_4)/SCR-20240302-pavs.png)
 
-1. Домашняя работа оформляется в своём Git-репозитории в файле README.md. Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
-2. Файл README.md должен содержать скриншоты вывода необходимых команд `kubectl`, скриншоты результатов.
-3. Репозиторий должен содержать тексты манифестов или ссылки на них в файле README.md.
+![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson9(2_4)/SCR-20240302-pnuu.png)
 
-------
+![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson9(2_4)/SCR-20240302-pzpr.png)
 
+![screen](https://github.com/Jlljully/k8s/blob/main/files/lesson9(2_4)/SCR-20240302-qcda.png)
