@@ -1,0 +1,23 @@
+microk8s enable rbac
+sudo useradd k8stest
+cd /home/k8stest/
+sudo openssl genrsa -out k8stest.key 2048
+
+newgrp microk8s
+usermod -a -G microk8s k8stest
+
+openssl req -new -key k8stest.key \
+-out k8stest.csr \
+-subj "/CN=k8stest/O=$microk8s"
+
+openssl x509 -req -in k8stest.csr \
+-CA /var/snap/microk8s/current/certs/ca.crt \
+-CAkey /var/snap/microk8s/current/certs/ca.key \
+-CAcreateserial \
+-out k8stest.crt -days 500
+
+kubectl config set-credentials k8stest \
+--client-certificate=/home/k8stest/.certs/jk8stest.crt \
+--client-key=/home/k8stest/.certs/k8stest.key
+
+kubectl config set-context k8stest-context --cluster=microk8s-cluster --user=k8stest
